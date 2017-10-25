@@ -1,0 +1,84 @@
+
+.center {
+    text-align: center;
+  }
+
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  img {
+      display: inline;
+      width: 315px;
+      height: 110px;
+      padding: 0px;
+  }
+
+  #footer {
+      width: 100%;
+      border-top: solid 2px rgba(248, 246, 246, 0.37);
+      background-color:rgba(251, 249, 249, 0.137);;
+      position: fixed;
+      bottom: 0;
+  }
+
+  body {
+      background-image: url("dots.jpg");
+      background-size: cover;
+  }
+
+  #input-parent {
+      position: relative;
+  }
+  #input {
+      width: 160px;
+      height: 160px;
+      text-align: center;
+      border-radius: 50%;
+      border: 2px solid gray;
+      font-size: 26px;
+      outline: none;
+  }
+
+  li {
+      display: inline;
+      border: 1px solid black;
+      font-size: 80px;
+      padding: 0 25px;
+      border-radius: 10%;
+      border: 2px solid white;
+      background-color: rgba(30, 32, 37, 0.842);
+  }
+
+  #submit {
+      position: absolute;
+      top: 90px;
+      left: 740px;
+      border-radius: 50%;
+      height: 70px;
+      width: 70px;
+      font-size: 16pt;
+      text-align: center;
+      border: 3px solid forestgreen;
+      outline: none;
+  }
+
+  .text {
+    font-family: Georgia;
+    font-size: 26px;
+    color: rgb(247, 240, 240);
+  }
+
+  #reset,
+  #hint {
+      font-size: 16pt;
+  }
+
+  #foottext {
+    font-size: 16pt;
+    font-family: Georgia;
+    font-size: 16pt;
+    color: rgb(247, 240, 240);
+  }
+

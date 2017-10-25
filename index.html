@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <!--><link rel="stylesheet" href="/Users/jd/Documents/bootstrap-3.3.7-dist/css/bootstrap.css"><!-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='GuessingGame.js'></script>
+  </head>
+  <body>
+
+      <div id='app'>
+
+        <div class="text" id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 class="center">Guessing Game</h1>
+          <h2 class="center">Guess a number between 1 and 100</h2>
+        </div>
+
+
+        <div class="center" id='main'>
+          <div class= "text" id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input style="color: black" id="input" placeholder="#" autofocus>
+            <button class="btn btn-success" id="submit">Go!</button>
+          </div>
+          <br>
+          <br>
+
+          <div class="text" id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id="guess-list">
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div class="text" id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button class="btn btn-danger" id="reset">Reset</button>
+            <button class="btn btn-warning" id="hint">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="center" id='footer'>
+        <div class="row">
+          <div class="col-sm-4" id="fslogo">
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class="col-sm-4" id='foottext'>
+            <h4>Project by James DeLay</h4>
+          </div>
+
+          <div class="col-sm-4" id="ghlogo">
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>
